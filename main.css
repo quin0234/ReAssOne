@@ -9,8 +9,22 @@
 ul {
     list-style: none;
 }
+
+.nav-menu {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.link1, .link2 {
+    background: red;
+    width: 40%;
+    text-align: center;    
+}
+
 .playerCard {
     width: 80%;
+    height: 250px;
     display: block;
     margin: auto;
     border: 2px solid red;
@@ -57,4 +71,8 @@ ul {
     background: red;
     color: white;
     border-radius: 5px;
+}
+
+a:hover, a:visited, a:active {
+    color: black
 }
